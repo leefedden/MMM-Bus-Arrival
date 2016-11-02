@@ -17,8 +17,8 @@ Module.register('MMM-Bus-Arrival', {
 
         // Set up the local values, here we construct the request url to use
         this.loaded = false;
-        this.url = 'https://api.tfl.gov.uk/StopPoint/';
-        /* https://api.tfl.gov.uk/StopPoint/490013900N/arrivals */
+        /* this.url = 'https://api.tfl.gov.uk/StopPoint/'; */
+        this.url = 'https://api.tfl.gov.uk/StopPoint/490013900N/arrivals'
         this.location = '490013900N';
         this.result = null;
 
@@ -47,6 +47,7 @@ Module.register('MMM-Bus-Arrival', {
         // If we have some data to display then build the results table
         
         if (this.loaded) {
+        	wrapper.innerHTML = this.result;
         	/*
             if (this.result !== null) {
                 tubeResults = document.createElement('table');
