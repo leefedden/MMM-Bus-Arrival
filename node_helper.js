@@ -38,7 +38,7 @@ module.exports = NodeHelper.create({
     socketNotificationReceived: function(notification, payload) {
         // Check this is for us and if it is let's get the weather data
         if (notification === 'GET-BUS-ARRIVAL') {
-            this.getBusArriva;Data(payload);
+            this.getBusArrivalData(payload);
             }
         }
 
