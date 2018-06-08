@@ -1,27 +1,24 @@
 {
-    "name":         "MMM-Bus-Arrival",
-    "version":      "0.0.1",
-    "description":  "MagicMirror 2 module to show the arrival times for buses in london.",
-    "repository":   {
-                    "type": "git",
-                    "url":  "git+https://github.com/lee-fedden/MMM-Bus-Arrival"
-                    },
-    "keywords":     [
-                    "magic mirror",
-                    "smart mirror",
-                    "transport",
-                    "london",
-                    "bus",
-                    "module"
-                    ],
-    "author":       "Lee Fedden",
-    "contributors": "https://github.com/lee-fedden/MMM-Bus-Arrival/graphs/contributors",
-    "license":      "MIT",
-    "bugs":         {
-                    "url": "https://github.com/lee-fedden/MMM-Bus-Arrival/issues"
-                    },
-    "homepage":     "https://github.com/lee-fedden/MMM-Bus-Arrival#readme",
-    "dependencies": {
-                    "request":  "latest"
-                    }
+  "name": "mmm-bus-arrival",
+  "version": "0.0.1",
+  "description": "List local bus waiting times for bus stop",
+  "main": "MMM-Bus-Arrival.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-fedden/MMM-Bus-Arrival.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "London",
+    "Bus"
+  ],
+  "author": "Lee Fedden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lee-fedden/MMM-Bus-Arrival/issues"
+  },
+  "homepage": "https://github.com/lee-fedden/MMM-Bus-Arrival#readme"
 }
